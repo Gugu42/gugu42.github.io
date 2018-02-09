@@ -10,14 +10,12 @@ function generateButtons() {
 
 function pickWhite(color) {
     var output = {
-        input: {
-            r:(hexToRgb(col).r / 255),
-            g:(hexToRgb(col).g / 255),
-            b:(hexToRgb(col).b / 255)
-        },
-        output:{
-            white:1
-        }
+        input: [
+            (hexToRgb(col).r / 255),
+            (hexToRgb(col).g / 255),
+            (hexToRgb(col).b / 255)
+        ],
+        output:[1]
     };
 
     document.getElementById("jsonOutput").value += (JSON.stringify(output) + ",");
@@ -27,14 +25,12 @@ function pickWhite(color) {
 
 function pickBlack() {
     var output = {
-        input: {
-            r:(hexToRgb(col).r / 255),
-            g:(hexToRgb(col).g / 255),
-            b:(hexToRgb(col).b / 255)
-        },
-        output:{
-            black:1
-        }
+        input: [
+            (hexToRgb(col).r / 255),
+            (hexToRgb(col).g / 255),
+            (hexToRgb(col).b / 255)
+        ],
+        output:[0]
     };
 
     document.getElementById("jsonOutput").value += (JSON.stringify(output) + ",");
