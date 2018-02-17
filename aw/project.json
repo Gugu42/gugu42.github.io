@@ -1,0 +1,405 @@
+{
+  "name": "Advance Wars",
+  "assets": [
+    {
+      "id": "20",
+      "name": "Icons",
+      "type": null,
+      "children": [
+        {
+          "id": "22",
+          "name": "AttackTile",
+          "type": "sprite"
+        },
+        {
+          "id": "23",
+          "name": "MoveTile",
+          "type": null,
+          "children": [
+            {
+              "id": "21",
+              "name": "MoveTile",
+              "type": "sprite"
+            },
+            {
+              "id": "24",
+              "name": "Prefab",
+              "type": "scene"
+            }
+          ]
+        },
+        {
+          "id": "31",
+          "name": "MoveArrow",
+          "type": null,
+          "children": [
+            {
+              "id": "32",
+              "name": "Sprite",
+              "type": "sprite"
+            },
+            {
+              "id": "33",
+              "name": "Prefab",
+              "type": "scene"
+            },
+            {
+              "id": "34",
+              "name": "MoveArrow",
+              "type": "script"
+            }
+          ]
+        },
+        {
+          "id": "59",
+          "name": "DAY",
+          "type": null,
+          "children": [
+            {
+              "id": "60",
+              "name": "D",
+              "type": "sprite"
+            },
+            {
+              "id": "61",
+              "name": "A",
+              "type": "sprite"
+            },
+            {
+              "id": "62",
+              "name": "Y",
+              "type": "sprite"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "name": "HUD",
+      "type": null,
+      "children": [
+        {
+          "id": "37",
+          "name": "TileStatus",
+          "type": null,
+          "children": [
+            {
+              "id": "39",
+              "name": "TileStatus",
+              "type": "script"
+            },
+            {
+              "id": "35",
+              "name": "TerrainTypes",
+              "type": "sprite"
+            },
+            {
+              "id": "40",
+              "name": "Prefab",
+              "type": "scene"
+            },
+            {
+              "id": "41",
+              "name": "Background",
+              "type": "sprite"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Levels",
+      "type": null,
+      "children": [
+        {
+          "id": "3",
+          "name": "Test Level",
+          "type": null,
+          "children": [
+            {
+              "id": "4",
+              "name": "Scene",
+              "type": "scene"
+            },
+            {
+              "id": "5",
+              "name": "Tile Map",
+              "type": "tileMap"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0",
+      "name": "Resources",
+      "type": null,
+      "children": [
+        {
+          "id": "1",
+          "name": "Tilemap",
+          "type": "tileSet"
+        },
+        {
+          "id": "18",
+          "name": "Cursor",
+          "type": "sprite"
+        },
+        {
+          "id": "42",
+          "name": "Tiles",
+          "type": "sprite"
+        },
+        {
+          "id": "75",
+          "name": "Font",
+          "type": "font"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "name": "Scripts",
+      "type": null,
+      "children": [
+        {
+          "id": "17",
+          "name": "MouseController",
+          "type": "script"
+        },
+        {
+          "id": "44",
+          "name": "Cursor",
+          "type": "scene"
+        },
+        {
+          "id": "48",
+          "name": "CombatSystem",
+          "type": "script"
+        },
+        {
+          "id": "55",
+          "name": "MatchHandler",
+          "type": "script"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Units",
+      "type": null,
+      "children": [
+        {
+          "id": "7",
+          "name": "Unit",
+          "type": "script"
+        },
+        {
+          "id": "43",
+          "name": "UnitMovementData",
+          "type": "script"
+        },
+        {
+          "id": "11",
+          "name": "Infantry",
+          "type": null,
+          "children": [
+            {
+              "id": "12",
+              "name": "Sprite_R",
+              "type": "sprite"
+            },
+            {
+              "id": "13",
+              "name": "Prefab",
+              "type": "scene"
+            },
+            {
+              "id": "47",
+              "name": "Sprite_B",
+              "type": "sprite"
+            }
+          ]
+        },
+        {
+          "id": "25",
+          "name": "Mechanized",
+          "type": null,
+          "children": [
+            {
+              "id": "26",
+              "name": "Sprite_R",
+              "type": "sprite"
+            },
+            {
+              "id": "27",
+              "name": "Prefab",
+              "type": "scene"
+            },
+            {
+              "id": "56",
+              "name": "Sprite_B",
+              "type": "sprite"
+            }
+          ]
+        },
+        {
+          "id": "28",
+          "name": "Recon",
+          "type": null,
+          "children": [
+            {
+              "id": "29",
+              "name": "Prefab",
+              "type": "scene"
+            },
+            {
+              "id": "30",
+              "name": "Sprite_R",
+              "type": "sprite"
+            },
+            {
+              "id": "58",
+              "name": "Sprite_B",
+              "type": "sprite"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "name": "Game",
+      "type": "script"
+    },
+    {
+      "id": "49",
+      "name": "Menu",
+      "type": null,
+      "children": [
+        {
+          "id": "50",
+          "name": "Main Menu",
+          "type": "scene"
+        },
+        {
+          "id": "76",
+          "name": "Multiplayer Menu",
+          "type": "scene"
+        },
+        {
+          "id": "51",
+          "name": "Background",
+          "type": "sprite"
+        },
+        {
+          "id": "52",
+          "name": "Arrow",
+          "type": "sprite"
+        },
+        {
+          "id": "53",
+          "name": "VsButton",
+          "type": "sprite"
+        },
+        {
+          "id": "77",
+          "name": "LinkButton",
+          "type": "sprite"
+        },
+        {
+          "id": "73",
+          "name": "Elements",
+          "type": null,
+          "children": [
+            {
+              "id": "54",
+              "name": "Button",
+              "type": "script"
+            },
+            {
+              "id": "70",
+              "name": "ScrollingBackground",
+              "type": "script"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "name": "Widgets",
+      "type": null,
+      "children": [
+        {
+          "id": "64",
+          "name": "Action Menu",
+          "type": null,
+          "children": [
+            {
+              "id": "65",
+              "name": "Prefab",
+              "type": "scene"
+            },
+            {
+              "id": "66",
+              "name": "Actions",
+              "type": "sprite"
+            },
+            {
+              "id": "67",
+              "name": "Background",
+              "type": "sprite"
+            },
+            {
+              "id": "69",
+              "name": "Action",
+              "type": "scene"
+            }
+          ]
+        },
+        {
+          "id": "78",
+          "name": "Day X Widget",
+          "type": null,
+          "children": [
+            {
+              "id": "79",
+              "name": "DayFont",
+              "type": "sprite"
+            },
+            {
+              "id": "80",
+              "name": "TeamBackground",
+              "type": "sprite"
+            }
+          ]
+        },
+        {
+          "id": "81",
+          "name": "Lobby Widget",
+          "type": null,
+          "children": [
+            {
+              "id": "82",
+              "name": "Prefab",
+              "type": "scene"
+            }
+          ]
+        },
+        {
+          "id": "68",
+          "name": "Widget Builder",
+          "type": "script"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "name": "Multiplayer",
+      "type": "script"
+    }
+  ]
+}

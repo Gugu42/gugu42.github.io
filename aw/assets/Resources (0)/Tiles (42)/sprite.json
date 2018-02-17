@@ -1,0 +1,86 @@
+{
+  "formatVersion": 3,
+  "maps": [
+    "map"
+  ],
+  "filtering": "pixelated",
+  "wrapping": "clampToEdge",
+  "pixelsPerUnit": 16,
+  "framesPerSecond": 10,
+  "opacity": null,
+  "alphaTest": 0.1,
+  "frameOrder": "rows",
+  "grid": {
+    "width": 16,
+    "height": 16
+  },
+  "origin": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "animations": [
+    {
+      "id": "0",
+      "name": "plain",
+      "startFrameIndex": 1,
+      "endFrameIndex": 1,
+      "speed": 1
+    },
+    {
+      "id": "1",
+      "name": "road",
+      "startFrameIndex": 97,
+      "endFrameIndex": 97,
+      "speed": 1
+    },
+    {
+      "id": "2",
+      "name": "bridge",
+      "startFrameIndex": 22,
+      "endFrameIndex": 22,
+      "speed": 1
+    },
+    {
+      "id": "3",
+      "name": "building",
+      "startFrameIndex": 448,
+      "endFrameIndex": 448,
+      "speed": 1
+    },
+    {
+      "id": "4",
+      "name": "river",
+      "startFrameIndex": 25,
+      "endFrameIndex": 25,
+      "speed": 1
+    },
+    {
+      "id": "5",
+      "name": "water",
+      "startFrameIndex": 42,
+      "endFrameIndex": 42,
+      "speed": 1
+    },
+    {
+      "id": "6",
+      "name": "mountain",
+      "startFrameIndex": 32,
+      "endFrameIndex": 32,
+      "speed": 1
+    },
+    {
+      "id": "7",
+      "name": "wood",
+      "startFrameIndex": 135,
+      "endFrameIndex": 135,
+      "speed": 1
+    }
+  ],
+  "mapSlots": {
+    "map": "map",
+    "light": null,
+    "specular": null,
+    "alpha": null,
+    "normal": null
+  }
+}

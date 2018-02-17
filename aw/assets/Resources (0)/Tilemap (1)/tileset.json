@@ -1,0 +1,113 @@
+{
+  "formatVersion": 1,
+  "grid": {
+    "width": 16,
+    "height": 16
+  },
+  "tileProperties": {
+    "10_1": {
+      "water": ""
+    },
+    "0_9": {
+      "wall": "1"
+    },
+    "1_9": {
+      "wall": "1"
+    },
+    "2_1": {
+      "type": "mountain",
+      "cost": "2"
+    },
+    "3_1": {
+      "type": "mountain",
+      "cost": "2"
+    },
+    "25_0": {
+      "water": "",
+      "type": "river",
+      "cost": "1"
+    },
+    "23_1": {
+      "water": ""
+    },
+    "24_0": {
+      "water": ""
+    },
+    "24_1": {
+      "water": ""
+    },
+    "25_1": {
+      "water": "",
+      "cost": "1",
+      "type": "river"
+    },
+    "23_0": {
+      "water": ""
+    },
+    "1_0": {
+      "type": "plain",
+      "cost": "1"
+    },
+    "1_3": {
+      "type": "road",
+      "cost": "1"
+    },
+    "2_0": {
+      "type": "mountain",
+      "cost": "2"
+    },
+    "0_1": {
+      "type": "mountain",
+      "cost": "2"
+    },
+    "0_2": {
+      "type": "road",
+      "cost": "1"
+    },
+    "1_2": {
+      "type": "road",
+      "cost": "1"
+    },
+    "2_2": {
+      "type": "road",
+      "cost": "1"
+    },
+    "2_3": {
+      "type": "road",
+      "cost": "1"
+    },
+    "0_3": {
+      "type": "road",
+      "cost": "1"
+    },
+    "1_1": {
+      "type": "plain",
+      "cost": "1"
+    },
+    "7_4": {
+      "type": "wood",
+      "cost": "1"
+    },
+    "6_4": {
+      "type": "wood",
+      "cost": "1"
+    },
+    "22_0": {
+      "cost": "1",
+      "type": "bridge"
+    },
+    "22_1": {
+      "cost": "1",
+      "type": "bridge"
+    },
+    "2_14": {
+      "type": "building"
+    },
+    "0_14": {
+      "type": "building"
+    },
+    "5_14": {
+      "type": "building"
+    }
+  }
+}

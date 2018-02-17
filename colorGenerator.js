@@ -7,7 +7,6 @@ function generateButtons() {
     document.getElementById("whiteBtn").style.backgroundColor = "#" + col;
 }
 
-
 function pickWhite(color) {
     var output = {
         input: [
